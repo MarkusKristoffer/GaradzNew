@@ -139,7 +139,7 @@ tools:context=".HomeFragment">
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/img_park1" />
+                app:srcCompat="@drawable/park3" />
 
             <TextView
                 android:id="@+id/tv1_1"
@@ -147,9 +147,9 @@ tools:context=".HomeFragment">
                 android:layout_height="wrap_content"
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="16dp"
-                android:text="Location"
+                android:text="Caranglaan, Dagupan, Pangasinan"
                 android:textColor="#26273a"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imv1"
                 app:layout_constraintTop_toTopOf="@+id/imv1" />
@@ -205,7 +205,7 @@ tools:context=".HomeFragment">
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/img_park1" />
+                app:srcCompat="@drawable/park7" />
 
             <TextView
                 android:id="@+id/tv1_2"
@@ -213,9 +213,9 @@ tools:context=".HomeFragment">
                 android:layout_height="wrap_content"
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="16dp"
-                android:text="Location"
+                android:text="Lucao, Dagupan, Pangasinan"
                 android:textColor="#26273a"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imv2"
                 app:layout_constraintTop_toTopOf="@+id/imv2" />
@@ -272,7 +272,7 @@ tools:context=".HomeFragment">
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/img_park1" />
+                app:srcCompat="@drawable/park10" />
 
             <TextView
                 android:id="@+id/tv1_4"
@@ -280,9 +280,9 @@ tools:context=".HomeFragment">
                 android:layout_height="wrap_content"
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="16dp"
-                android:text="Location"
+                android:text="Bolosan, Dagupan City"
                 android:textColor="#26273a"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imv4"
                 app:layout_constraintTop_toTopOf="@+id/imv4" />
@@ -339,7 +339,7 @@ tools:context=".HomeFragment">
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/img_park1" />
+                app:srcCompat="@drawable/park7" />
 
             <TextView
                 android:id="@+id/tv1_5"
@@ -347,9 +347,9 @@ tools:context=".HomeFragment">
                 android:layout_height="wrap_content"
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="16dp"
-                android:text="Location"
+                android:text="Pogo Chico, Dagupan City"
                 android:textColor="#26273a"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imv5"
                 app:layout_constraintTop_toTopOf="@+id/imv5" />

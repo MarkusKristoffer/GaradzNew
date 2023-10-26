@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
-import com.example.anew.databinding.ActivityLogIn
+import com.example.anew.databinding.ActivityLoginBinding
 
 
 class LoginActivity : AppCompatActivity() {

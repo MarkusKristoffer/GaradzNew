@@ -8,8 +8,10 @@ import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.example.anew.databinding.ActivityMainBinding
+import com.google.android.material.navigation.NavigationView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var fragmentManager: FragmentManager
     private lateinit var binding: ActivityMainBinding
@@ -28,7 +30,8 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener {
             openFragment(AllLocationsFragment())
         }
-            binding.navigationDrawer.setNavigationItemSelectedListener(this)
+
+        binding.navigationDrawer.setNavigationItemSelectedListener(this)
         binding.bottomNavigation.background = null
         binding.bottomNavigation.setOnItemSelectedListener { item ->
             when(item.itemId){
@@ -45,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.nav_all_location-> openFragment(AllLocationsFragment())
             R.id.nav_location -> openFragment(MapsFragment())
@@ -61,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)){
             binding.drawerLayout.closeDrawer(GravityCompat.START)
         }else{
-            super.getOnBackPressedDispatcher().onBackPressed()
+            super.onBackPressed()
         }
     }
     private fun openFragment(fragment: Fragment){
