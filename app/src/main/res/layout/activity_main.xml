@@ -8,6 +8,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+    </FrameLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -21,10 +27,7 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/fragment_container">
+
 
             <androidx.coordinatorlayout.widget.CoordinatorLayout
                 android:layout_width="match_parent"
@@ -48,8 +51,8 @@
                         app:labelVisibilityMode="labeled"
                         app:menu="@menu/bottom_menu">
 
-                    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
+                    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
                 </com.google.android.material.bottomappbar.BottomAppBar>
 
@@ -59,17 +62,18 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="#EDD781E6"
                     android:src="@drawable/car_icon"
-                    app:layout_anchor="@+id/bottomAppBar"
-                    app:layout_anchorGravity="top|center"
-                    android:layout_marginBottom="40dp"
-                    app:maxImageSize="40dp" />
+                    app:maxImageSize="40dp"
+                    android:layout_gravity ="bottom|center"
+                    android:layout_marginBottom="30dp"/>
 
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>
-        </FrameLayout>
+
 
 
     </RelativeLayout>
+
+
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
@@ -77,7 +81,7 @@
         android:id="@+id/navigation_drawer"
         android:layout_gravity="start"
         app:itemIconTint="#006C1717"
-        app:itemTextColor="@color/white"
+        app:itemTextColor="#671675"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"/>
 

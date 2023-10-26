@@ -5,14 +5,14 @@
     android:layout_height="176dp"
     android:gravity="top"
     android:padding="16dp"
-    android:background="#EDC86CD8"
+    android:background="#ED651F71"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="512dp"
+        android:layout_height="268dp"
         android:layout_gravity="center"
-        android:src="@drawable/tlogo"/>
+        android:src="@drawable/login_main_picture" />
 
 
 </LinearLayout>
