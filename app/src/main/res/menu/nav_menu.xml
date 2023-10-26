@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn = "navigation_view">
+
+        <group
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_all_location"
+                android:icon="@drawable/all_location"
+                android:title="All Locations"/>
+
+            <item
+                android:id="@+id/nav_book"
+                android:icon="@drawable/book_icon"
+                android:title="Book"/>
+            <item
+                android:id="@+id/nav_location"
+                android:icon="@drawable/location_icon"
+                android:title="Location"/>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profile_icon"
+                android:title="Profile"/>
+
+
+        </group>
+
+</menu>
