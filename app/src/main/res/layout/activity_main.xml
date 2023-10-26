@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
-                    android:backgroundTint="#E2A047AF"
+                    android:backgroundTint="#A047AF"
                     app:fabCradleMargin="10dp"
                     app:fabCradleRoundedCornerRadius="50dp">
 
@@ -60,7 +60,7 @@
                     android:id="@+id/fab"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#EDD781E6"
+                    android:backgroundTint="#EDBF5BD1"
                     android:src="@drawable/car_icon"
                     app:maxImageSize="40dp"
                     android:layout_gravity ="bottom|center"

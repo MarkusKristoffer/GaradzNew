@@ -33,8 +33,8 @@ class AllLocationsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_all_locations, container, false)
+        var view = inflater.inflate(R.layout.fragment_all_locations, container, false)
+        return view
     }
 
     companion object {
@@ -46,7 +46,8 @@ class AllLocationsFragment : Fragment() {
          * @param param2 Parameter 2.
          * @return A new instance of fragment AllLocationsFragment.
          */
-        // TODO: Rename and change types and number of parameters
+
+
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             AllLocationsFragment().apply {

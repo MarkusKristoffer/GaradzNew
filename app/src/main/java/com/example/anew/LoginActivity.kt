@@ -32,12 +32,12 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Add Username & Password", Toast.LENGTH_SHORT).show()
             } else {
                 if (checkuser == true) {
-                    Toast.makeText(this, "Log In Successful", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
                     val intent = Intent(this, homeActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {
-                    Toast.makeText(this, "Wrong Password & Username", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
                 }
             }
             loginDatabase(loginUsername, loginPassword)
@@ -56,13 +56,13 @@ class LoginActivity : AppCompatActivity() {
     private fun loginDatabase(username: String, password: String){
         val userExists = databaseHelper.readUser(username, password)
         if (userExists){
-            Toast.makeText(this, "Log in Successful", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "LoginSuccessful", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, homeActivity::class.java)
             startActivity(intent)
             finish()
 
         }else{
-            Toast.makeText(this, "Log in Failed", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Login Succesful", Toast.LENGTH_SHORT).show()
 
 
         }
