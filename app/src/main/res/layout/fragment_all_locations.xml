@@ -126,7 +126,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park2"
+                        android:src="@drawable/park1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -193,7 +193,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park3"
+                        android:src="@drawable/park1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -260,7 +260,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park4"
+                        android:src="@drawable/park1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -326,7 +326,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park5"
+                        android:src="@drawable/park1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -392,7 +392,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park6"
+                        android:src="@drawable/park1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
